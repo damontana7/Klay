@@ -1,0 +1,17 @@
+A Record	
+klay.com.au		216.70.123.101	
+new.klay.com.au		216.70.123.101
+	
+CNAME Record	
+autodiscover.klay.com.au	autodiscover.ceramicsolutions.com.au	
+www.klay.com.au		        klay.com.au
+
+MX Record	
+klay.com.au		10 filter1.klayti-1.mailguard.com.au	
+klay.com.au		20 filter2.klayti-1.mailguard.com.au	
+klay.com.au		30 filter3.klayti-1.mailguard.com.au
+
+TXT Record	
+klay.com.au		mt-23795882
+klay.com.au		r1td8pbn7dbhgh23q6e4aisrc6	
+klay.com.au		v=spf1 include:customer.mailguard.com.au include:spf.premiertech.com.au ip4:203.45.28.55 ~all
