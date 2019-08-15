@@ -1,8 +1,7 @@
-@media (min-width: 1025px){
 .whb-sticked .whb-general-header .woodmart-logo img {
     max-height: 69px !important;
     max-width: 160px !important;
-}}
+}
 
 .main-nav .item-level-0.callto-btn > a, .comment-form .submit, .post-password-form input[type="submit"], .cookies-buttons .cookies-accept-btn, div.open-table-widget .otw-button-wrap .otw-submit, div.open-table-widget .otw-button-wrap .otw-submit-btn, .mc4wp-form input[type="submit"], .woodmart-price-table .woodmart-plan-footer > a, #yith-wpv-abuse, div.wcmp_regi_main .button {
     background-color: #8C8C8C !important;
@@ -102,7 +101,7 @@ body .labels-rounded .new{
 background-repeat: no-repeat;
 }
 .woodmart-pf-dropdown .swatches-large.swatches-brands .filter-swatch>span, .woodmart-woocommerce-layered-nav .swatches-large.swatches-brands .filter-swatch>span {
-	display: none !important;
+    display: none !important;
 }
 .woodmart-product-categories li.wc-default-cat { 
     display: inline-block; 
@@ -142,4 +141,35 @@ div .shop-title-wrapper .woodmart-back-btn {
 }
 .box-style-border .info-box-content {
     border: none !important;
+}
+.main-page-wrapper {
+    background-color: #000000 !important;
+}
+h1, h2, h3, h4, h5, h6, .title, legend, .woocommerce-Reviews .comment-reply-title {
+    color: #ffffff !important;
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+.woodmart-slide-inner {
+    margin: 0 0 0 -484px !important;
+}    
+.vc_custom_1565052353907 {
+    padding-right: 12em !important;
+    padding-left: 12em !important;
+}}
+@media (min-width: 1025px){
+.woodmart-slide-inner {
+    margin: 0 0 0 -715px !important;
+}
+.mainslider {
+    min-height: 95vh !important;
+    min-width: 125vw;
+}    
+}
+@media (max-width: 767px){
+.woodmart-slide-inner {
+    margin: 0 0 0 -2px !important;
+}}
+.woodmart-hover-base .hover-content table td, .product-image-summary .shop_attributes td, .woocommerce-product-details__short-description table td, .woodmart-hover-base .hover-content table th, .product-image-summary .shop_attributes th, .woocommerce-product-details__short-description table th {
+    border-bottom-style: none;
 }
