@@ -1,0 +1,4 @@
+[14-Apr-2020 22:58:06 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/customer/www/klay.com.au/public_html/wp-content/themes/woodmart-child/functions.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/klay.com.au/public_html/wp-content/themes/woodmart-child/functions.php on line 5
