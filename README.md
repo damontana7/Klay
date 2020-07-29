@@ -4,13 +4,13 @@ The following files are related to the KLAY website, all the different fixes and
 
 ## Folders and their purpose
 1.  Binder cache folder
-    1.  This folder contains the solution to the cache. The problem was when a visitor added or removed a product on the wishlist and then came back to the Binder page. The list was not consistent with the latest changes. So, this is a Javascript file to clear cache just on that page.
+    The Binder cache issue
 
 2.  Search Options
-    1.  This folder has all the related changed to the search problems that come with the theme
+    How to improve search on a woocommerce site
 
-3.  Speed Improvement 
-    2.  This folder has a .htaccess file that sets expiration headers to filetypes to improve the speed score on GTmetrix
+3.  Speed Improvement
+    Using a .htacess file to set exiration headers
 
 3.  Child theme
-    3.  This folder has the 'functions.php' file disabling all the ecommerce scripts to imprive speed
+    With key things when not buying/selling things on the site.
